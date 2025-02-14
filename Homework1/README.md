@@ -14,5 +14,5 @@ Task4: Removes symbols like $ and %. When percent is removed, take 1-the number 
 Task5: Created the list using a 2d list so book and author are paird
         also created the example dictionary
 
-Task6: Read in file, convert it to a string
+Task6: Read in file, convert it to a string. Remove punctuation and new lines, count length after split
 
