@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-=&_yz@0tz7+9zu$6z-q=9f7k3*0@)ot%($-8_o!3od*b#e40sl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['editor-jsnedeke-18.devedu.io']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'bookings.apps.BookingsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
