@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+
+
+<link rel="stylesheet" href="{% static 'styles.css' %}">
+<h1>All Seats</h1>
+<ul>
+    {% for Seat in seat_list %}
+        <li class="redseat">{{ Seat.seat_number }}</li>
+    {% endfor %}
+</ul> 
+
+</html>

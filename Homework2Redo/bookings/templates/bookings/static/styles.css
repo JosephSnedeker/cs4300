@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    text-align: center;
+}
+li{
+    background-color: aqua;
+}
+li.redseat{
+    color: red;
+    
+}
+li.blueseat{
+    color:blue;
+}

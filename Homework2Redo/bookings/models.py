@@ -8,7 +8,7 @@ class Movie(models.Model):
     
 
 class Seat(models.Model):
-    seat_number = models.CharField(max_length=3)
+    seat_number = models.CharField(max_length=2)
     is_booked = models.BooleanField()
 
 class User(models.Model): #only used for foreign key of Booking
